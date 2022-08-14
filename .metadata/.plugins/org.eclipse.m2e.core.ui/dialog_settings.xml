@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Selenium_Project"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Java"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\kishor\eclipse-workspace1\LearnSelenium\src\main\java\testngassign\CreateLead.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="SeleniumPractice"/>
+			<item value="RestAssured2022"/>
+			<item value="NaveenAutomationLabs"/>
+			<item value="FreeCRMTestAutomation"/>
+			<item value="org.testleaf.learning"/>
+			<item value="javacodes"/>
+			<item value="week1.day1"/>
+			<item value="Karate"/>
+			<item value="SalesForce"/>
+			<item value="Week4Cucumber"/>
+			<item value="Week3Day1"/>
+			<item value="RestAssured"/>
+			<item value="RestAssuredMar22"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="SeleniumPractice"/>
+			<item value="RestAssured2022"/>
+			<item value="NaveenPOM"/>
+			<item value="FreeCRMTest"/>
+			<item value="LearnPageObjectV1"/>
+			<item value="JavaCodes"/>
+			<item value="LearnSelenium"/>
+			<item value="Karate"/>
+			<item value="SalesForce"/>
+			<item value="Week4Cucumber"/>
+			<item value="Week3Day1"/>
+			<item value="RestAssured"/>
+			<item value="RestAssuredMar22"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\kishor\eclipse-workspace1\SeleniumPractice"/>
+			<item value="C:\Users\kishor\eclipse-workspace1\LeafBot"/>
+			<item value="D:\API Documents\FrameWork\Makaia_Framework"/>
+			<item value="D:\API Documents\FrameWork\Makaia_Framework\Makaia_Framework"/>
+			<item value="D:\API Documents\FrameWork\Matschie"/>
+			<item value="D:\API Documents\FrameWork\Framework_With_Cucumber"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 61.903 s <<< FAILURE! - in TestSuite
+createLeaf(com.leafBot.testcases.TC001_LoginLogOut)  Time elapsed: 0.578 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.leafBot.testcases.TC001_LoginLogOut.createLeaf(TC001_LoginLogOut.java:24)
+

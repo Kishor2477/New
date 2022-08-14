@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10433" started-at="2022-08-12T21:20:28 IST" finished-at="2022-08-12T21:20:38 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10433" started-at="2022-08-12T21:20:28 IST" finished-at="2022-08-12T21:20:38 IST">
+      <class name="window.WindowHandles">
+        <test-method status="PASS" signature="setup()[pri:0, instance:window.WindowHandles@ac1102]" name="setup" is-config="true" duration-ms="6871" started-at="2022-08-12T21:20:28 IST" finished-at="2022-08-12T21:20:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="windows()[pri:0, instance:window.WindowHandles@ac1102]" name="windows" duration-ms="3436" started-at="2022-08-12T21:20:35 IST" finished-at="2022-08-12T21:20:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windows -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:window.WindowHandles@ac1102]" name="tearDown" is-config="true" duration-ms="68" started-at="2022-08-12T21:20:38 IST" finished-at="2022-08-12T21:20:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- window.WindowHandles -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

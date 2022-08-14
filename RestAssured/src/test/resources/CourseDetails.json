@@ -1,0 +1,30 @@
+{
+"request" : {
+"urlPath" : "/testleaf/training/ebooks",
+"queryParameters":{
+"book_name": {
+"matches" : ".*" 
+},
+"type":{
+"matches" : ".*"
+}
+},
+"method" : "GET"
+},
+"response":{
+"jsonBody":{
+"course Details":[
+{
+"Course":"{{request.query.book_name}}",
+"Type" : "{{request.query.type}}",
+"price" : "Rs: {{randomValue Length=4 type='NUMERIC'}}."
+},
+{
+"Course":"{{request.query.book_name}}",
+"Type" : "{{request.query.type}}",
+"price" : "Rs: {{randomValue Length=3 type='NUMERIC'}}"
+}
+]
+}
+}
+}

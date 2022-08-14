@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58172" started-at="2022-07-06T17:00:19 IST" finished-at="2022-07-06T17:01:17 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58172" started-at="2022-07-06T17:00:19 IST" finished-at="2022-07-06T17:01:17 IST">
+      <class name="com.leaftaps.ui.tests.CreateLead_Positive">
+        <test-method status="PASS" signature="startReports()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="startReports" is-config="true" duration-ms="291" started-at="2022-07-06T17:00:19 IST" finished-at="2022-07-06T17:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReports -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="setValues" is-config="true" duration-ms="1" started-at="2022-07-06T17:00:19 IST" finished-at="2022-07-06T17:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="textCaseDetails()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="textCaseDetails" is-config="true" duration-ms="7" started-at="2022-07-06T17:00:19 IST" finished-at="2022-07-06T17:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textCaseDetails -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="login" is-config="true" duration-ms="6759" started-at="2022-07-06T17:00:20 IST" finished-at="2022-07-06T17:00:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tc002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="tc002" duration-ms="14316" started-at="2022-07-06T17:00:27 IST" data-provider="testdata" finished-at="2022-07-06T17:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Man]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="close" is-config="true" duration-ms="148" started-at="2022-07-06T17:00:41 IST" finished-at="2022-07-06T17:00:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="login" is-config="true" duration-ms="2255" started-at="2022-07-06T17:00:41 IST" finished-at="2022-07-06T17:00:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tc002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="tc002" duration-ms="12028" started-at="2022-07-06T17:00:43 IST" data-provider="testdata" finished-at="2022-07-06T17:00:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goku]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raji]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="close" is-config="true" duration-ms="4195" started-at="2022-07-06T17:00:55 IST" finished-at="2022-07-06T17:01:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="login" is-config="true" duration-ms="1926" started-at="2022-07-06T17:01:00 IST" finished-at="2022-07-06T17:01:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tc002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="tc002" duration-ms="11610" started-at="2022-07-06T17:01:02 IST" data-provider="testdata" finished-at="2022-07-06T17:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HUI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NNJ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="close" is-config="true" duration-ms="4192" started-at="2022-07-06T17:01:13 IST" finished-at="2022-07-06T17:01:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leaftaps.ui.tests.CreateLead_Positive@153f538]" name="stopReport" is-config="true" duration-ms="358" started-at="2022-07-06T17:01:17 IST" finished-at="2022-07-06T17:01:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.leaftaps.ui.tests.CreateLead_Positive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

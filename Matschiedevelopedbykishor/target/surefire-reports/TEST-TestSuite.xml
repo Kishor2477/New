@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.409" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\API Documents\FrameWork\Matschie\Matschie"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\API Documents\FrameWork\Matschie\Matschie"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\kishor\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\kishor\eclipse-workspace1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14405083786795477515.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_271\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:/eclipse-java-2021-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;D:/eclipse-java-2021-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Git\cmd;D:\API Documents\Maven\apache-maven-3.2.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Java\jdk1.8.0_271\bin;C:\Users\kishor\AppData\Local\Microsoft\WindowsApps;C:\Users\kishor\AppData\Roaming\npm;D:\eclipse-java-2021-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kishor"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="kishor"/>
+    <property name="java.class.path" value="D:\eclipse-java-2021-09-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210618-2246\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\API Documents\FrameWork\Matschie\Matschie\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="runScenario" classname="runner.RunTest" time="3.967">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://dev52787.service-now.com/api/now/table/incident
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "short_description": "Added from Cucumber"
+}
+<html>
+  <head>
+    <meta http-equiv="refresh" content="5;https://developer.servicenow.com/dev.do#!/home?wu=true"/>
+    <title>
+            Instance Hibernating page
+        </title>
+    <style>
+            @font-face {
+                font-family: "Gilroy-Bold";
+                font-style: normal;
+                 font-weight: normal;
+                src: url("gilroy-bold-webfont.woff2") format("woff2"),
+                     url("gilroy-bold-webfont.woff") format("woff");
+            }
+            @font-face {
+                font-family: "Gilroy-Regular";
+                font-style: normal;
+                font-weight: normal;
+                src: url("gilroy-regular-webfont.woff2") format("woff2"),
+                     url("gilroy-regular-webfont.woff") format("woff");
+            }
+            @font-face {
+                font-family: 'Gilroy-Medium';
+                font-style: normal;
+                font-weight: normal;
+                src: url('gilroy-medium-webfont.woff2') format('woff2'),
+                     url('gilroy-medium-webfont.woff') format('woff');
+            }
+            @font-face {
+                font-family: 'SourceSansPro-Regular';
+                src: url("source-sans-pro-v11-latin-regular.woff2") format("woff2"),
+                     url("source-sans-pro-v11-latin-regular.woff") format("woff");
+            }
+            body {
+                background-color: #293D40;
+            }
+            h1 {
+                margin: 150px 0 90px 0;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Bold;
+                font-size: 38px;
+                font-weight: bold;
+                height: 42px;
+                letter-spacing: 0;
+                line-height: 42px;
+                width: 520px;
+            }
+            a {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+            button {
+                padding: 9px 0 27px 0;
+                background: rgb(255, 255, 255);
+                margin-left: 26%;
+                cursor: pointer;
+            }
+            .instance-hibernating-page {
+                max-width: 600px;
+                margin: auto;
+                padding: 10px;
+            }
+            .resting-image {
+                height: fit-content;
+                position: relative;
+            }
+            .information {
+                margin: 30px 0 0 -80px;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Regular;
+                font-size: 21px;
+                font-weight: normal;
+                height: 64px;
+                letter-spacing: 0;
+                line-height: 32px;
+                text-align: center;
+                width: 665px;
+            }
+            .external-link {
+                text-decoration: underline;
+            }
+            .button-text {
+                color: rgb(71, 77, 82);
+                font-family: Gilroy-Medium;
+                font-size: 15px;
+                height: 17px;
+                letter-spacing: 0;
+                width: 172px;
+            }
+            .button-arrow {
+                padding-left: 2px;
+            }
+            .redirection-text {
+                margin: 64px 0 0 8%;
+                color: rgb(255, 255, 255);
+                font-family: SourceSansPro-Regular;
+                font-size: 13px;
+                font-weight: normal;
+                height: 20px;
+                letter-spacing: 0;
+                line-height: 20px;
+                width: 410px;
+            }
+            .texture-image {
+                margin: 0 60px 0 1133px;
+                position: absolute;
+                width: 240px;
+                top: 0;
+                right: 0;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="instance-hibernating-page">
+      <h1>Your instance is hibernating</h1>
+      <img class="resting-image" src="https://sndevstore.blob.core.windows.net/images/Hibernating-page_Resting-Image-Asset.svg" alt="texture_image" width="500" height="300"/>
+      <p class="information">Sign in to the site to wake your instance</p>
+      <button type="submit" class="button-text" onclick="location.href='https://developer.servicenow.com/dev.do#!/home?wu=true';">
+Sign in
+                        <span class="button-arrow">
+          <svg aria-hidden="true" viewbox="0 0 12 12" style="width: 0.75rem; height: 0.75rem;">
+            <g stroke="none" fill="none">
+              <path fill="currentColor" d="M9.11 6L5.815 2.704l.707-.708L11 6.475l-4.479 4.479-.707-.708L9.061 7H1.003V6z"/>
+            </g>
+          </svg>
+        </span>
+      </button>
+      <p class="information">
+
+                Want to find out why instances hibernate? Read more about instances in the
+                        <a shape="rect" href="https://developer.servicenow.com/dev.do#!/guides/latest/developer-program/pdi-guide/personal-developer-instance-guide-introduction" target="_blank">
+          <span class="external-link">
+                        Personal Developer Instance Guide
+                    </span>
+          <svg aria-hidden="true" viewbox="0 0 16 16" style="width: 1rem; height: 1rem;">
+            <g stroke="none" fill="none">
+              <path fill="currentColor" d="M5 3v1h6.293l-8.651 8.648.707.707L12 4.707v6.294h1V3z"/>
+            </g>
+          </svg>
+        </a>
+      </p>
+      <p class="redirection-text">You'll be automatically redirected to the ServiceNow Developer Site shortly</p>
+      <img class="texture-image" src="https://sndevstore.blob.core.windows.net/images/Hibernating-page_Texture-image-asset.png" alt="circles"/>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Apr 06, 2022 7:54:21 PM io.cucumber.core.options.CucumberPropertiesParser parse
+WARNING: Passing commandline options via the property `cucumber.options` has been deprecatedin favour of explicitly using property names.
+Please use these instead: [cucumber.ansi-colors.disabled, cucumber.execution.dry-run, cucumber.execution.limit, cucumber.execution.order, cucumber.execution.strict, cucumber.execution.wip, cucumber.features, cucumber.filter.name, cucumber.filter.tags, cucumber.glue, cucumber.object-factory, cucumber.plugin, cucumber.snippet-type]
+Apr 06, 2022 7:54:21 PM io.cucumber.testng.TestNGCucumberRunner <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+]]></system-err>
+  </testcase>
+  <testcase name="getIncidents" classname="services.IncidentTests" time="2.328">
+    <failure message="2 expectations failed.&#10;Response body doesn&apos;t match expectation.&#10;Expected: a string containing &quot;number&quot;&#10;  Actual: &lt;html&gt;&#10;    &lt;head&gt;&#10;        &lt;meta HTTP-EQUIV=&quot;refresh&quot; content=&quot;5;https://developer.servicenow.com/dev.do#!/home?wu=true&quot;&gt;&#10;        &lt;title&gt;&#10;            Instance Hibernating page&#10;        &lt;/title&gt;&#10;        &lt;style&gt;&#10;            @font-face {&#10;                font-family: &quot;Gilroy-Bold&quot;;&#10;                font-style: normal;&#10;                 font-weight: normal;&#10;                src: url(&quot;gilroy-bold-webfont.woff2&quot;) format(&quot;woff2&quot;),&#10;                     url(&quot;gilroy-bold-webfont.woff&quot;) format(&quot;woff&quot;);&#10;            }&#10;            @font-face {&#10;                font-family: &quot;Gilroy-Regular&quot;;&#10;                font-style: normal;&#10;                font-weight: normal;&#10;                src: url(&quot;gilroy-regular-webfont.woff2&quot;) format(&quot;woff2&quot;),&#10;                     url(&quot;gilroy-regular-webfont.woff&quot;) format(&quot;woff&quot;);&#10;            }&#10;            @font-face {&#10;                font-family: &apos;Gilroy-Medium&apos;;&#10;                font-style: normal;&#10;                font-weight: normal;&#10;                src: url(&apos;gilroy-medium-webfont.woff2&apos;) format(&apos;woff2&apos;),&#10;                     url(&apos;gilroy-medium-webfont.woff&apos;) format(&apos;woff&apos;);&#10;            }&#10;            @font-face {&#10;                font-family: &apos;SourceSansPro-Regular&apos;;&#10;                src: url(&quot;source-sans-pro-v11-latin-regular.woff2&quot;) format(&quot;woff2&quot;),&#10;                     url(&quot;source-sans-pro-v11-latin-regular.woff&quot;) format(&quot;woff&quot;);&#10;            }&#10;            body {&#10;                background-color: #293D40;&#10;            }&#10;            h1 {&#10;                margin: 150px 0 90px 0;&#10;                color: rgb(255, 255, 255);&#10;                font-family: Gilroy-Bold;&#10;                font-size: 38px;&#10;                font-weight: bold;&#10;                height: 42px;&#10;                letter-spacing: 0;&#10;                line-height: 42px;&#10;                width: 520px;&#10;            }&#10;            a {&#10;                color: rgb(255, 255, 255);&#10;                text-decoration: none;&#10;            }&#10;            button {&#10;                padding: 9px 0 27px 0;&#10;                background: rgb(255, 255, 255);&#10;                margin-left: 26%;&#10;                cursor: pointer;&#10;            }&#10;            .instance-hibernating-page {&#10;                max-width: 600px;&#10;                margin: auto;&#10;                padding: 10px;&#10;            }&#10;            .resting-image {&#10;                height: fit-content;&#10;                position: relative;&#10;            }&#10;            .information {&#10;                margin: 30px 0 0 -80px;&#10;                color: rgb(255, 255, 255);&#10;                font-family: Gilroy-Regular;&#10;                font-size: 21px;&#10;                font-weight: normal;&#10;                height: 64px;&#10;                letter-spacing: 0;&#10;                line-height: 32px;&#10;                text-align: center;&#10;                width: 665px;&#10;            }&#10;            .external-link {&#10;                text-decoration: underline;&#10;            }&#10;            .button-text {&#10;                color: rgb(71, 77, 82);&#10;                font-family: Gilroy-Medium;&#10;                font-size: 15px;&#10;                height: 17px;&#10;                letter-spacing: 0;&#10;                width: 172px;&#10;            }&#10;            .button-arrow {&#10;                padding-left: 2px;&#10;            }&#10;            .redirection-text {&#10;                margin: 64px 0 0 8%;&#10;                color: rgb(255, 255, 255);&#10;                font-family: SourceSansPro-Regular;&#10;                font-size: 13px;&#10;                font-weight: normal;&#10;                height: 20px;&#10;                letter-spacing: 0;&#10;                line-height: 20px;&#10;                width: 410px;&#10;            }&#10;            .texture-image {&#10;                margin: 0 60px 0 1133px;&#10;                position: absolute;&#10;                width: 240px;&#10;                top: 0;&#10;                right: 0;&#10;            }&#10;        &lt;/style&gt;&#10;    &lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;div class=&quot;instance-hibernating-page&quot;&gt;&#10;            &lt;h1&gt;Your instance is hibernating&lt;/h1&gt;&#10;            &lt;img class=&quot;resting-image&quot; src=&quot;https://sndevstore.blob.core.windows.net/images/Hibernating-page_Resting-Image-Asset.svg&quot; alt=&quot;texture_image&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;&#10;            &lt;p class=&quot;information&quot;&gt;Sign in to the site to wake your instance&lt;/p&gt;&#10;            &lt;button onclick=&quot;location.href=&apos;https://developer.servicenow.com/dev.do#!/home?wu=true&apos;;&quot; class =&quot;button-text&quot;&gt;Sign in&#10;                &lt;span class=&quot;button-arrow&quot;&gt;&#10;                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; viewBox=&quot;0 0 12 12&quot; style=&quot;width: 0.75rem; height: 0.75rem;&quot;&gt;&#10;                        &lt;g stroke=&quot;none&quot; fill=&quot;none&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M9.11 6L5.815 2.704l.707-.708L11 6.475l-4.479 4.479-.707-.708L9.061 7H1.003V6z&quot;&gt;&lt;/path&gt;&lt;/g&gt;&#10;                    &lt;/svg&gt;&#10;                &lt;/span&gt;&#10;            &lt;/button&gt;&#10;            &lt;p class=&quot;information&quot;&gt;&#10;                Want to find out why instances hibernate? Read more about instances in the&#10;                &lt;a href=&quot;https://developer.servicenow.com/dev.do#!/guides/latest/developer-program/pdi-guide/personal-developer-instance-guide-introduction&quot; target=&quot;_blank&quot;&gt;&#10;                    &lt;span class=&quot;external-link&quot;&gt;&#10;                        Personal Developer Instance Guide&#10;                    &lt;/span&gt;&#10;                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; viewBox=&quot;0 0 16 16&quot; style=&quot;width: 1rem; height: 1rem;&quot;&gt;&#10;                        &lt;g stroke=&quot;none&quot; fill=&quot;none&quot;&gt;&#10;                            &lt;path fill=&quot;currentColor&quot; d=&quot;M5 3v1h6.293l-8.651 8.648.707.707L12 4.707v6.294h1V3z&quot;&gt;&#10;                            &lt;/path&gt;&#10;                        &lt;/g&gt;&#10;                    &lt;/svg&gt;&#10;                &lt;/a&gt;&#10;            &lt;/p&gt;&#10;            &lt;p class=&quot;redirection-text&quot;&gt;You&apos;ll be automatically redirected to the ServiceNow Developer Site shortly&lt;/p&gt;&#10;            &lt;img class=&quot;texture-image&quot; src=&quot;https://sndevstore.blob.core.windows.net/images/Hibernating-page_Texture-image-asset.png&quot; alt=&quot;circles&quot;&gt;&#10;        &lt;/div&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;&#10;&#10;Response body doesn&apos;t match expectation.&#10;Expected: a string containing &quot;sys_id&quot;&#10;  Actual: &lt;html&gt;&#10;    &lt;head&gt;&#10;        &lt;meta HTTP-EQUIV=&quot;refresh&quot; content=&quot;5;https://developer.servicenow.com/dev.do#!/home?wu=true&quot;&gt;&#10;        &lt;title&gt;&#10;            Instance Hibernating page&#10;        &lt;/title&gt;&#10;        &lt;style&gt;&#10;            @font-face {&#10;                font-family: &quot;Gilroy-Bold&quot;;&#10;                font-style: normal;&#10;                 font-weight: normal;&#10;                src: url(&quot;gilroy-bold-webfont.woff2&quot;) format(&quot;woff2&quot;),&#10;                     url(&quot;gilroy-bold-webfont.woff&quot;) format(&quot;woff&quot;);&#10;            }&#10;            @font-face {&#10;                font-family: &quot;Gilroy-Regular&quot;;&#10;                font-style: normal;&#10;                font-weight: normal;&#10;                src: url(&quot;gilroy-regular-webfont.woff2&quot;) format(&quot;woff2&quot;),&#10;                     url(&quot;gilroy-regular-webfont.woff&quot;) format(&quot;woff&quot;);&#10;            }&#10;            @font-face {&#10;                font-family: &apos;Gilroy-Medium&apos;;&#10;                font-style: normal;&#10;                font-weight: normal;&#10;                src: url(&apos;gilroy-medium-webfont.woff2&apos;) format(&apos;woff2&apos;),&#10;                     url(&apos;gilroy-medium-webfont.woff&apos;) format(&apos;woff&apos;);&#10;            }&#10;            @font-face {&#10;                font-family: &apos;SourceSansPro-Regular&apos;;&#10;                src: url(&quot;source-sans-pro-v11-latin-regular.woff2&quot;) format(&quot;woff2&quot;),&#10;                     url(&quot;source-sans-pro-v11-latin-regular.woff&quot;) format(&quot;woff&quot;);&#10;            }&#10;            body {&#10;                background-color: #293D40;&#10;            }&#10;            h1 {&#10;                margin: 150px 0 90px 0;&#10;                color: rgb(255, 255, 255);&#10;                font-family: Gilroy-Bold;&#10;                font-size: 38px;&#10;                font-weight: bold;&#10;                height: 42px;&#10;                letter-spacing: 0;&#10;                line-height: 42px;&#10;                width: 520px;&#10;            }&#10;            a {&#10;                color: rgb(255, 255, 255);&#10;                text-decoration: none;&#10;            }&#10;            button {&#10;                padding: 9px 0 27px 0;&#10;                background: rgb(255, 255, 255);&#10;                margin-left: 26%;&#10;                cursor: pointer;&#10;            }&#10;            .instance-hibernating-page {&#10;                max-width: 600px;&#10;                margin: auto;&#10;                padding: 10px;&#10;            }&#10;            .resting-image {&#10;                height: fit-content;&#10;                position: relative;&#10;            }&#10;            .information {&#10;                margin: 30px 0 0 -80px;&#10;                color: rgb(255, 255, 255);&#10;                font-family: Gilroy-Regular;&#10;                font-size: 21px;&#10;                font-weight: normal;&#10;                height: 64px;&#10;                letter-spacing: 0;&#10;                line-height: 32px;&#10;                text-align: center;&#10;                width: 665px;&#10;            }&#10;            .external-link {&#10;                text-decoration: underline;&#10;            }&#10;            .button-text {&#10;                color: rgb(71, 77, 82);&#10;                font-family: Gilroy-Medium;&#10;                font-size: 15px;&#10;                height: 17px;&#10;                letter-spacing: 0;&#10;                width: 172px;&#10;            }&#10;            .button-arrow {&#10;                padding-left: 2px;&#10;            }&#10;            .redirection-text {&#10;                margin: 64px 0 0 8%;&#10;                color: rgb(255, 255, 255);&#10;                font-family: SourceSansPro-Regular;&#10;                font-size: 13px;&#10;                font-weight: normal;&#10;                height: 20px;&#10;                letter-spacing: 0;&#10;                line-height: 20px;&#10;                width: 410px;&#10;            }&#10;            .texture-image {&#10;                margin: 0 60px 0 1133px;&#10;                position: absolute;&#10;                width: 240px;&#10;                top: 0;&#10;                right: 0;&#10;            }&#10;        &lt;/style&gt;&#10;    &lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;div class=&quot;instance-hibernating-page&quot;&gt;&#10;            &lt;h1&gt;Your instance is hibernating&lt;/h1&gt;&#10;            &lt;img class=&quot;resting-image&quot; src=&quot;https://sndevstore.blob.core.windows.net/images/Hibernating-page_Resting-Image-Asset.svg&quot; alt=&quot;texture_image&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;&#10;            &lt;p class=&quot;information&quot;&gt;Sign in to the site to wake your instance&lt;/p&gt;&#10;            &lt;button onclick=&quot;location.href=&apos;https://developer.servicenow.com/dev.do#!/home?wu=true&apos;;&quot; class =&quot;button-text&quot;&gt;Sign in&#10;                &lt;span class=&quot;button-arrow&quot;&gt;&#10;                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; viewBox=&quot;0 0 12 12&quot; style=&quot;width: 0.75rem; height: 0.75rem;&quot;&gt;&#10;                        &lt;g stroke=&quot;none&quot; fill=&quot;none&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M9.11 6L5.815 2.704l.707-.708L11 6.475l-4.479 4.479-.707-.708L9.061 7H1.003V6z&quot;&gt;&lt;/path&gt;&lt;/g&gt;&#10;                    &lt;/svg&gt;&#10;                &lt;/span&gt;&#10;            &lt;/button&gt;&#10;            &lt;p class=&quot;information&quot;&gt;&#10;                Want to find out why instances hibernate? Read more about instances in the&#10;                &lt;a href=&quot;https://developer.servicenow.com/dev.do#!/guides/latest/developer-program/pdi-guide/personal-developer-instance-guide-introduction&quot; target=&quot;_blank&quot;&gt;&#10;                    &lt;span class=&quot;external-link&quot;&gt;&#10;                        Personal Developer Instance Guide&#10;                    &lt;/span&gt;&#10;                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; viewBox=&quot;0 0 16 16&quot; style=&quot;width: 1rem; height: 1rem;&quot;&gt;&#10;                        &lt;g stroke=&quot;none&quot; fill=&quot;none&quot;&gt;&#10;                            &lt;path fill=&quot;currentColor&quot; d=&quot;M5 3v1h6.293l-8.651 8.648.707.707L12 4.707v6.294h1V3z&quot;&gt;&#10;                            &lt;/path&gt;&#10;                        &lt;/g&gt;&#10;                    &lt;/svg&gt;&#10;                &lt;/a&gt;&#10;            &lt;/p&gt;&#10;            &lt;p class=&quot;redirection-text&quot;&gt;You&apos;ll be automatically redirected to the ServiceNow Developer Site shortly&lt;/p&gt;&#10;            &lt;img class=&quot;texture-image&quot; src=&quot;https://sndevstore.blob.core.windows.net/images/Hibernating-page_Texture-image-asset.png&quot; alt=&quot;circles&quot;&gt;&#10;        &lt;/div&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+2 expectations failed.
+Response body doesn't match expectation.
+Expected: a string containing "number"
+  Actual: <html>
+    <head>
+        <meta HTTP-EQUIV="refresh" content="5;https://developer.servicenow.com/dev.do#!/home?wu=true">
+        <title>
+            Instance Hibernating page
+        </title>
+        <style>
+            @font-face {
+                font-family: "Gilroy-Bold";
+                font-style: normal;
+                 font-weight: normal;
+                src: url("gilroy-bold-webfont.woff2") format("woff2"),
+                     url("gilroy-bold-webfont.woff") format("woff");
+            }
+            @font-face {
+                font-family: "Gilroy-Regular";
+                font-style: normal;
+                font-weight: normal;
+                src: url("gilroy-regular-webfont.woff2") format("woff2"),
+                     url("gilroy-regular-webfont.woff") format("woff");
+            }
+            @font-face {
+                font-family: 'Gilroy-Medium';
+                font-style: normal;
+                font-weight: normal;
+                src: url('gilroy-medium-webfont.woff2') format('woff2'),
+                     url('gilroy-medium-webfont.woff') format('woff');
+            }
+            @font-face {
+                font-family: 'SourceSansPro-Regular';
+                src: url("source-sans-pro-v11-latin-regular.woff2") format("woff2"),
+                     url("source-sans-pro-v11-latin-regular.woff") format("woff");
+            }
+            body {
+                background-color: #293D40;
+            }
+            h1 {
+                margin: 150px 0 90px 0;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Bold;
+                font-size: 38px;
+                font-weight: bold;
+                height: 42px;
+                letter-spacing: 0;
+                line-height: 42px;
+                width: 520px;
+            }
+            a {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+            button {
+                padding: 9px 0 27px 0;
+                background: rgb(255, 255, 255);
+                margin-left: 26%;
+                cursor: pointer;
+            }
+            .instance-hibernating-page {
+                max-width: 600px;
+                margin: auto;
+                padding: 10px;
+            }
+            .resting-image {
+                height: fit-content;
+                position: relative;
+            }
+            .information {
+                margin: 30px 0 0 -80px;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Regular;
+                font-size: 21px;
+                font-weight: normal;
+                height: 64px;
+                letter-spacing: 0;
+                line-height: 32px;
+                text-align: center;
+                width: 665px;
+            }
+            .external-link {
+                text-decoration: underline;
+            }
+            .button-text {
+                color: rgb(71, 77, 82);
+                font-family: Gilroy-Medium;
+                font-size: 15px;
+                height: 17px;
+                letter-spacing: 0;
+                width: 172px;
+            }
+            .button-arrow {
+                padding-left: 2px;
+            }
+            .redirection-text {
+                margin: 64px 0 0 8%;
+                color: rgb(255, 255, 255);
+                font-family: SourceSansPro-Regular;
+                font-size: 13px;
+                font-weight: normal;
+                height: 20px;
+                letter-spacing: 0;
+                line-height: 20px;
+                width: 410px;
+            }
+            .texture-image {
+                margin: 0 60px 0 1133px;
+                position: absolute;
+                width: 240px;
+                top: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="instance-hibernating-page">
+            <h1>Your instance is hibernating</h1>
+            <img class="resting-image" src="https://sndevstore.blob.core.windows.net/images/Hibernating-page_Resting-Image-Asset.svg" alt="texture_image" width="500" height="300">
+            <p class="information">Sign in to the site to wake your instance</p>
+            <button onclick="location.href='https://developer.servicenow.com/dev.do#!/home?wu=true';" class ="button-text">Sign in
+                <span class="button-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 12 12" style="width: 0.75rem; height: 0.75rem;">
+                        <g stroke="none" fill="none"><path fill="currentColor" d="M9.11 6L5.815 2.704l.707-.708L11 6.475l-4.479 4.479-.707-.708L9.061 7H1.003V6z"></path></g>
+                    </svg>
+                </span>
+            </button>
+            <p class="information">
+                Want to find out why instances hibernate? Read more about instances in the
+                <a href="https://developer.servicenow.com/dev.do#!/guides/latest/developer-program/pdi-guide/personal-developer-instance-guide-introduction" target="_blank">
+                    <span class="external-link">
+                        Personal Developer Instance Guide
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16" style="width: 1rem; height: 1rem;">
+                        <g stroke="none" fill="none">
+                            <path fill="currentColor" d="M5 3v1h6.293l-8.651 8.648.707.707L12 4.707v6.294h1V3z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </p>
+            <p class="redirection-text">You'll be automatically redirected to the ServiceNow Developer Site shortly</p>
+            <img class="texture-image" src="https://sndevstore.blob.core.windows.net/images/Hibernating-page_Texture-image-asset.png" alt="circles">
+        </div>
+    </body>
+</html>
+
+
+Response body doesn't match expectation.
+Expected: a string containing "sys_id"
+  Actual: <html>
+    <head>
+        <meta HTTP-EQUIV="refresh" content="5;https://developer.servicenow.com/dev.do#!/home?wu=true">
+        <title>
+            Instance Hibernating page
+        </title>
+        <style>
+            @font-face {
+                font-family: "Gilroy-Bold";
+                font-style: normal;
+                 font-weight: normal;
+                src: url("gilroy-bold-webfont.woff2") format("woff2"),
+                     url("gilroy-bold-webfont.woff") format("woff");
+            }
+            @font-face {
+                font-family: "Gilroy-Regular";
+                font-style: normal;
+                font-weight: normal;
+                src: url("gilroy-regular-webfont.woff2") format("woff2"),
+                     url("gilroy-regular-webfont.woff") format("woff");
+            }
+            @font-face {
+                font-family: 'Gilroy-Medium';
+                font-style: normal;
+                font-weight: normal;
+                src: url('gilroy-medium-webfont.woff2') format('woff2'),
+                     url('gilroy-medium-webfont.woff') format('woff');
+            }
+            @font-face {
+                font-family: 'SourceSansPro-Regular';
+                src: url("source-sans-pro-v11-latin-regular.woff2") format("woff2"),
+                     url("source-sans-pro-v11-latin-regular.woff") format("woff");
+            }
+            body {
+                background-color: #293D40;
+            }
+            h1 {
+                margin: 150px 0 90px 0;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Bold;
+                font-size: 38px;
+                font-weight: bold;
+                height: 42px;
+                letter-spacing: 0;
+                line-height: 42px;
+                width: 520px;
+            }
+            a {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+            button {
+                padding: 9px 0 27px 0;
+                background: rgb(255, 255, 255);
+                margin-left: 26%;
+                cursor: pointer;
+            }
+            .instance-hibernating-page {
+                max-width: 600px;
+                margin: auto;
+                padding: 10px;
+            }
+            .resting-image {
+                height: fit-content;
+                position: relative;
+            }
+            .information {
+                margin: 30px 0 0 -80px;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Regular;
+                font-size: 21px;
+                font-weight: normal;
+                height: 64px;
+                letter-spacing: 0;
+                line-height: 32px;
+                text-align: center;
+                width: 665px;
+            }
+            .external-link {
+                text-decoration: underline;
+            }
+            .button-text {
+                color: rgb(71, 77, 82);
+                font-family: Gilroy-Medium;
+                font-size: 15px;
+                height: 17px;
+                letter-spacing: 0;
+                width: 172px;
+            }
+            .button-arrow {
+                padding-left: 2px;
+            }
+            .redirection-text {
+                margin: 64px 0 0 8%;
+                color: rgb(255, 255, 255);
+                font-family: SourceSansPro-Regular;
+                font-size: 13px;
+                font-weight: normal;
+                height: 20px;
+                letter-spacing: 0;
+                line-height: 20px;
+                width: 410px;
+            }
+            .texture-image {
+                margin: 0 60px 0 1133px;
+                position: absolute;
+                width: 240px;
+                top: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="instance-hibernating-page">
+            <h1>Your instance is hibernating</h1>
+            <img class="resting-image" src="https://sndevstore.blob.core.windows.net/images/Hibernating-page_Resting-Image-Asset.svg" alt="texture_image" width="500" height="300">
+            <p class="information">Sign in to the site to wake your instance</p>
+            <button onclick="location.href='https://developer.servicenow.com/dev.do#!/home?wu=true';" class ="button-text">Sign in
+                <span class="button-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 12 12" style="width: 0.75rem; height: 0.75rem;">
+                        <g stroke="none" fill="none"><path fill="currentColor" d="M9.11 6L5.815 2.704l.707-.708L11 6.475l-4.479 4.479-.707-.708L9.061 7H1.003V6z"></path></g>
+                    </svg>
+                </span>
+            </button>
+            <p class="information">
+                Want to find out why instances hibernate? Read more about instances in the
+                <a href="https://developer.servicenow.com/dev.do#!/guides/latest/developer-program/pdi-guide/personal-developer-instance-guide-introduction" target="_blank">
+                    <span class="external-link">
+                        Personal Developer Instance Guide
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16" style="width: 1rem; height: 1rem;">
+                        <g stroke="none" fill="none">
+                            <path fill="currentColor" d="M5 3v1h6.293l-8.651 8.648.707.707L12 4.707v6.294h1V3z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </p>
+            <p class="redirection-text">You'll be automatically redirected to the ServiceNow Developer Site shortly</p>
+            <img class="texture-image" src="https://sndevstore.blob.core.windows.net/images/Hibernating-page_Texture-image-asset.png" alt="circles">
+        </div>
+    </body>
+</html>
+
+
+	at services.IncidentTests.getIncidents(IncidentTests.java:20)
+]]></failure>
+    <system-out><![CDATA[
+Failed scenarios:
+file:///D:/API%20Documents/FrameWork/Matschie/Matschie/src/test/java/features/CreateIncident.feature:3# Create a new incident with short description
+
+1 Scenarios (1 failed)
+5 Steps (1 failed, 1 skipped, 3 passed)
+0m4.015s
+
+
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <200>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at steps.IncidentManagement.verify_status_code(IncidentManagement.java:44)
+	at ?.the status code is 201(file:///D:/API%20Documents/FrameWork/Matschie/Matschie/src/test/java/features/CreateIncident.feature:7)
+
+
+Request method:	GET
+Request URI:	https://dev52787.service-now.com/api/now/table/incident
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;week3.day1.String.java&apos; to &apos;StringLearn.java&apos;&#x0D;&#x0A;- Original project: &apos;LearnSelenium&apos;&#x0D;&#x0A;- Original element: &apos;week3.day1.String.java&apos;&#x0D;&#x0A;- Renamed element: &apos;week3.day1.StringLearn.java&apos;" description="Rename compilation unit &apos;String.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;week3.day1{String.java" name="StringLearn.java" references="false" stamp="1652800870617" version="1.0"/>
+</session>

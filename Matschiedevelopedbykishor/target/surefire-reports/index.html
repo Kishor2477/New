@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="services.IncidentTests" hash-for-method="getIncidents">getIncidents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="runner.RunTest" hash-for-method="runScenario(&quot;Create a new incident with short description&quot;, &quot;Create New Incident&quot;)">runScenario("Create a new incident with short description", "Create New Incident")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">services.IncidentTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getIncidents">
+                  </a> <!-- getIncidents -->
+                  <span class="method-name">getIncidents</span>
+                  <div class="stack-trace">java.lang.AssertionError: 2 expectations failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;number&quot;
+  Actual: &lt;html&gt;
+    &lt;head&gt;
+        &lt;meta HTTP-EQUIV=&quot;refresh&quot; content=&quot;5;https://developer.servicenow.com/dev.do#!/home?wu=true&quot;&gt;
+        &lt;title&gt;
+            Instance Hibernating page
+        &lt;/title&gt;
+        &lt;style&gt;
+            @font-face {
+                font-family: &quot;Gilroy-Bold&quot;;
+                font-style: normal;
+                 font-weight: normal;
+                src: url(&quot;gilroy-bold-webfont.woff2&quot;) format(&quot;woff2&quot;),
+                     url(&quot;gilroy-bold-webfont.woff&quot;) format(&quot;woff&quot;);
+            }
+            @font-face {
+                font-family: &quot;Gilroy-Regular&quot;;
+                font-style: normal;
+                font-weight: normal;
+                src: url(&quot;gilroy-regular-webfont.woff2&quot;) format(&quot;woff2&quot;),
+                     url(&quot;gilroy-regular-webfont.woff&quot;) format(&quot;woff&quot;);
+            }
+            @font-face {
+                font-family: &apos;Gilroy-Medium&apos;;
+                font-style: normal;
+                font-weight: normal;
+                src: url(&apos;gilroy-medium-webfont.woff2&apos;) format(&apos;woff2&apos;),
+                     url(&apos;gilroy-medium-webfont.woff&apos;) format(&apos;woff&apos;);
+            }
+            @font-face {
+                font-family: &apos;SourceSansPro-Regular&apos;;
+                src: url(&quot;source-sans-pro-v11-latin-regular.woff2&quot;) format(&quot;woff2&quot;),
+                     url(&quot;source-sans-pro-v11-latin-regular.woff&quot;) format(&quot;woff&quot;);
+            }
+            body {
+                background-color: #293D40;
+            }
+            h1 {
+                margin: 150px 0 90px 0;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Bold;
+                font-size: 38px;
+                font-weight: bold;
+                height: 42px;
+                letter-spacing: 0;
+                line-height: 42px;
+                width: 520px;
+            }
+            a {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+            button {
+                padding: 9px 0 27px 0;
+                background: rgb(255, 255, 255);
+                margin-left: 26%;
+                cursor: pointer;
+            }
+            .instance-hibernating-page {
+                max-width: 600px;
+                margin: auto;
+                padding: 10px;
+            }
+            .resting-image {
+                height: fit-content;
+                position: relative;
+            }
+            .information {
+                margin: 30px 0 0 -80px;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Regular;
+                font-size: 21px;
+                font-weight: normal;
+                height: 64px;
+                letter-spacing: 0;
+                line-height: 32px;
+                text-align: center;
+                width: 665px;
+            }
+            .external-link {
+                text-decoration: underline;
+            }
+            .button-text {
+                color: rgb(71, 77, 82);
+                font-family: Gilroy-Medium;
+                font-size: 15px;
+                height: 17px;
+                letter-spacing: 0;
+                width: 172px;
+            }
+            .button-arrow {
+                padding-left: 2px;
+            }
+            .redirection-text {
+                margin: 64px 0 0 8%;
+                color: rgb(255, 255, 255);
+                font-family: SourceSansPro-Regular;
+                font-size: 13px;
+                font-weight: normal;
+                height: 20px;
+                letter-spacing: 0;
+                line-height: 20px;
+                width: 410px;
+            }
+            .texture-image {
+                margin: 0 60px 0 1133px;
+                position: absolute;
+                width: 240px;
+                top: 0;
+                right: 0;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&quot;instance-hibernating-page&quot;&gt;
+            &lt;h1&gt;Your instance is hibernating&lt;/h1&gt;
+            &lt;img class=&quot;resting-image&quot; src=&quot;https://sndevstore.blob.core.windows.net/images/Hibernating-page_Resting-Image-Asset.svg&quot; alt=&quot;texture_image&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;
+            &lt;p class=&quot;information&quot;&gt;Sign in to the site to wake your instance&lt;/p&gt;
+            &lt;button onclick=&quot;location.href=&apos;https://developer.servicenow.com/dev.do#!/home?wu=true&apos;;&quot; class =&quot;button-text&quot;&gt;Sign in
+                &lt;span class=&quot;button-arrow&quot;&gt;
+                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; viewBox=&quot;0 0 12 12&quot; style=&quot;width: 0.75rem; height: 0.75rem;&quot;&gt;
+                        &lt;g stroke=&quot;none&quot; fill=&quot;none&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M9.11 6L5.815 2.704l.707-.708L11 6.475l-4.479 4.479-.707-.708L9.061 7H1.003V6z&quot;&gt;&lt;/path&gt;&lt;/g&gt;
+                    &lt;/svg&gt;
+                &lt;/span&gt;
+            &lt;/button&gt;
+            &lt;p class=&quot;information&quot;&gt;
+                Want to find out why instances hibernate? Read more about instances in the
+                &lt;a href=&quot;https://developer.servicenow.com/dev.do#!/guides/latest/developer-program/pdi-guide/personal-developer-instance-guide-introduction&quot; target=&quot;_blank&quot;&gt;
+                    &lt;span class=&quot;external-link&quot;&gt;
+                        Personal Developer Instance Guide
+                    &lt;/span&gt;
+                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; viewBox=&quot;0 0 16 16&quot; style=&quot;width: 1rem; height: 1rem;&quot;&gt;
+                        &lt;g stroke=&quot;none&quot; fill=&quot;none&quot;&gt;
+                            &lt;path fill=&quot;currentColor&quot; d=&quot;M5 3v1h6.293l-8.651 8.648.707.707L12 4.707v6.294h1V3z&quot;&gt;
+                            &lt;/path&gt;
+                        &lt;/g&gt;
+                    &lt;/svg&gt;
+                &lt;/a&gt;
+            &lt;/p&gt;
+            &lt;p class=&quot;redirection-text&quot;&gt;You&apos;ll be automatically redirected to the ServiceNow Developer Site shortly&lt;/p&gt;
+            &lt;img class=&quot;texture-image&quot; src=&quot;https://sndevstore.blob.core.windows.net/images/Hibernating-page_Texture-image-asset.png&quot; alt=&quot;circles&quot;&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;sys_id&quot;
+  Actual: &lt;html&gt;
+    &lt;head&gt;
+        &lt;meta HTTP-EQUIV=&quot;refresh&quot; content=&quot;5;https://developer.servicenow.com/dev.do#!/home?wu=true&quot;&gt;
+        &lt;title&gt;
+            Instance Hibernating page
+        &lt;/title&gt;
+        &lt;style&gt;
+            @font-face {
+                font-family: &quot;Gilroy-Bold&quot;;
+                font-style: normal;
+                 font-weight: normal;
+                src: url(&quot;gilroy-bold-webfont.woff2&quot;) format(&quot;woff2&quot;),
+                     url(&quot;gilroy-bold-webfont.woff&quot;) format(&quot;woff&quot;);
+            }
+            @font-face {
+                font-family: &quot;Gilroy-Regular&quot;;
+                font-style: normal;
+                font-weight: normal;
+                src: url(&quot;gilroy-regular-webfont.woff2&quot;) format(&quot;woff2&quot;),
+                     url(&quot;gilroy-regular-webfont.woff&quot;) format(&quot;woff&quot;);
+            }
+            @font-face {
+                font-family: &apos;Gilroy-Medium&apos;;
+                font-style: normal;
+                font-weight: normal;
+                src: url(&apos;gilroy-medium-webfont.woff2&apos;) format(&apos;woff2&apos;),
+                     url(&apos;gilroy-medium-webfont.woff&apos;) format(&apos;woff&apos;);
+            }
+            @font-face {
+                font-family: &apos;SourceSansPro-Regular&apos;;
+                src: url(&quot;source-sans-pro-v11-latin-regular.woff2&quot;) format(&quot;woff2&quot;),
+                     url(&quot;source-sans-pro-v11-latin-regular.woff&quot;) format(&quot;woff&quot;);
+            }
+            body {
+                background-color: #293D40;
+            }
+            h1 {
+                margin: 150px 0 90px 0;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Bold;
+                font-size: 38px;
+                font-weight: bold;
+                height: 42px;
+                letter-spacing: 0;
+                line-height: 42px;
+                width: 520px;
+            }
+            a {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+            button {
+                padding: 9px 0 27px 0;
+                background: rgb(255, 255, 255);
+                margin-left: 26%;
+                cursor: pointer;
+            }
+            .instance-hibernating-page {
+                max-width: 600px;
+                margin: auto;
+                padding: 10px;
+            }
+            .resting-image {
+                height: fit-content;
+                position: relative;
+            }
+            .information {
+                margin: 30px 0 0 -80px;
+                color: rgb(255, 255, 255);
+                font-family: Gilroy-Regular;
+                font-size: 21px;
+                font-weight: normal;
+                height: 64px;
+                letter-spacing: 0;
+                line-height: 32px;
+                text-align: center;
+                width: 665px;
+            }
+            .external-link {
+                text-decoration: underline;
+            }
+            .button-text {
+                color: rgb(71, 77, 82);
+                font-family: Gilroy-Medium;
+                font-size: 15px;
+                height: 17px;
+                letter-spacing: 0;
+                width: 172px;
+            }
+            .button-arrow {
+                padding-left: 2px;
+            }
+            .redirection-text {
+                margin: 64px 0 0 8%;
+                color: rgb(255, 255, 255);
+                font-family: SourceSansPro-Regular;
+                font-size: 13px;
+                font-weight: normal;
+                height: 20px;
+                letter-spacing: 0;
+                line-height: 20px;
+                width: 410px;
+            }
+            .texture-image {
+                margin: 0 60px 0 1133px;
+                position: absolute;
+                width: 240px;
+                top: 0;
+                right: 0;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&quot;instance-hibernating-page&quot;&gt;
+            &lt;h1&gt;Your instance is hibernating&lt;/h1&gt;
+            &lt;img class=&quot;resting-image&quot; src=&quot;https://sndevstore.blob.core.windows.net/images/Hibernating-page_Resting-Image-Asset.svg&quot; alt=&quot;texture_image&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;
+            &lt;p class=&quot;information&quot;&gt;Sign in to the site to wake your instance&lt;/p&gt;
+            &lt;button onclick=&quot;location.href=&apos;https://developer.servicenow.com/dev.do#!/home?wu=true&apos;;&quot; class =&quot;button-text&quot;&gt;Sign in
+                &lt;span class=&quot;button-arrow&quot;&gt;
+                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; viewBox=&quot;0 0 12 12&quot; style=&quot;width: 0.75rem; height: 0.75rem;&quot;&gt;
+                        &lt;g stroke=&quot;none&quot; fill=&quot;none&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M9.11 6L5.815 2.704l.707-.708L11 6.475l-4.479 4.479-.707-.708L9.061 7H1.003V6z&quot;&gt;&lt;/path&gt;&lt;/g&gt;
+                    &lt;/svg&gt;
+                &lt;/span&gt;
+            &lt;/button&gt;
+            &lt;p class=&quot;information&quot;&gt;
+                Want to find out why instances hibernate? Read more about instances in the
+                &lt;a href=&quot;https://developer.servicenow.com/dev.do#!/guides/latest/developer-program/pdi-guide/personal-developer-instance-guide-introduction&quot; target=&quot;_blank&quot;&gt;
+                    &lt;span class=&quot;external-link&quot;&gt;
+                        Personal Developer Instance Guide
+                    &lt;/span&gt;
+                    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; viewBox=&quot;0 0 16 16&quot; style=&quot;width: 1rem; height: 1rem;&quot;&gt;
+                        &lt;g stroke=&quot;none&quot; fill=&quot;none&quot;&gt;
+                            &lt;path fill=&quot;currentColor&quot; d=&quot;M5 3v1h6.293l-8.651 8.648.707.707L12 4.707v6.294h1V3z&quot;&gt;
+                            &lt;/path&gt;
+                        &lt;/g&gt;
+                    &lt;/svg&gt;
+                &lt;/a&gt;
+            &lt;/p&gt;
+            &lt;p class=&quot;redirection-text&quot;&gt;You&apos;ll be automatically redirected to the ServiceNow Developer Site shortly&lt;/p&gt;
+            &lt;img class=&quot;texture-image&quot; src=&quot;https://sndevstore.blob.core.windows.net/images/Hibernating-page_Texture-image-asset.png&quot; alt=&quot;circles&quot;&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at services.IncidentTests.getIncidents(IncidentTests.java:20)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.RunTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create a new incident with short description&quot;, &quot;Create New Incident&quot;)">
+                  </a> <!-- runScenario("Create a new incident with short description", "Create New Incident") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create a new incident with short description", "Create New Incident")</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at steps.IncidentManagement.verify_status_code(IncidentManagement.java:44)
+	at ✽.the status code is 201(file:///D:/API%20Documents/FrameWork/Matschie/Matschie/src/test/java/features/CreateIncident.feature:7)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.RunTest&quot;/&gt;
+      &lt;class name=&quot;services.IncidentTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runner.RunTest')
+data.setCell(0, 3, 3994);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getIncidents')
+data.setCell(1, 2, 'services.IncidentTests')
+data.setCell(1, 3, 2337);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">services.IncidentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.RunTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">743 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Create a new incident with short description", "Create New Incident")</span>
+                <span class="method-start">1073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">5076 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">services.IncidentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getIncidents</span>
+                <span class="method-start">5084 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

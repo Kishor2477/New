@@ -1,0 +1,18 @@
+package week4.day1;
+
+import javax.sql.rowset.WebRowSet;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
+
+public class LaunchServiceNow {
+	
+	public void serviceNowLogin() {
+		System.setProperty("webdriver.chrome.silentOutput", "true");
+		WebDriverManager.chromedriver().setup();
+		WebDriverManager driver = new ChromeDriverManager();
+		d
+		
+	}
+
+}

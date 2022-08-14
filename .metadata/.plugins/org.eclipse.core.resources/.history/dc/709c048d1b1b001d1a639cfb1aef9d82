@@ -1,0 +1,34 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class PrintSecondLargestNumbersIn {
+	
+	public static void main(String[] args) {
+		int[] inputArray = {12,10,16,13,25};
+	PrintSecondLargestNumbersIn obj = new PrintSecondLargestNumbersIn();
+	obj.arrayLength(inputArray);
+	obj.nonSort(inputArray);
+	}
+public void arrayLength(int[] inputArray) {
+	
+	Arrays.sort(inputArray);
+	System.out.println(inputArray[inputArray.length-2]);
+}
+public void nonSort(int[] inputArray) {
+	Set<Integer> set = new TreeSet<Integer>();
+	List<Integer> list = new ArrayList<Integer>(set);
+	int size = list.size();
+	System.out.println(inputArray[size-2]);
+	/*
+	 * for(int i=0;i<=size;i++) {
+	 * 
+	 * }
+	 */
+	
+}
+}

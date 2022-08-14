@@ -1,0 +1,17 @@
+package practice;
+
+import java.util.Arrays;
+
+public class PrintSecondLargestNumbersIn {
+	
+	public static void main(String[] args) {
+		int[] inputArray = {12,10,16,13,25};
+	PrintSecondLargestNumbersIn obj = new PrintSecondLargestNumbersIn();
+	obj.arrayLength(inputArray);
+	}
+public void arrayLength(int[] inputArray) {
+	
+	Arrays.sort(inputArray);
+	System.out.println(inputArray[inputArray.length-2]);
+}
+}

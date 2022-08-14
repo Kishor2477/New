@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.rest.TC004_UpdateChangeRequest">
+        <methods>
+          <include name="updateCR"/>
+          <include name="setValues"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.rest.TC004_UpdateChangeRequest -->
+      <class name="tests.rest.TC003_CreateChangeRequest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="setValues"/>
+          <include name="createCR"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.rest.TC003_CreateChangeRequest -->
+      <class name="tests.rest.TC005_DeleteChangeRequest">
+        <methods>
+          <include name="setValues"/>
+          <include name="beforeClass"/>
+          <include name="deleteCR"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.rest.TC005_DeleteChangeRequest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

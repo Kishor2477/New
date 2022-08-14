@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Kishor2477/New.git"/>
+		<item value="https://github.com/Kishor2477/Selenium.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="kishor &lt;kishor@LAPTOP-FUGSLUJ2&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="kishor &lt;kishor@LAPTOP-FUGSLUJ2&gt;"/>
+	</list>
+	<section name="GitCommitSearchPage">
+		<item key="HISTORY_SIZE" value="0"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\kishor\git\Selenium\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,32 @@
+package runner;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class ChangeRequest {
+	public Response response;
+	@Given("Setup the Endpoint")
+	public void setEndpoint() {
+		RestAssured.baseURI ="https://dev109262.service-now.com/api/now/table/change_request";
+	}
+	@And("Provide Authorization")
+	public void setAutorization() {
+		RestAssured.authentication = RestAssured.basic("admin", "llXHRy=@lH93");		
+	}
+	@When("Send the request")
+	public void sendRequest() {
+		response = RestAssured.given().get();
+	}
+	@Then("Validate the response is {int}")
+	public void validateResponse(int code) {
+		response.then().assertThat().statusCode(code);
+	}
+	@And("Print the response")
+	public void printResponse() {
+		response.prettyPrint();
+	}
+}
