@@ -3,19 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.leafBot.testcases.TC002_LoginForFailure">
+      <class name="com.leafBot.testcases.CucumberRunner">
         <methods>
           <include name="setUpClass"/>
           <include name="report"/>
+          <include name="runScenario"/>
           <include name="afterMethod"/>
           <include name="tearDownClass"/>
           <include name="startReport"/>
-          <include name="setValues"/>
-          <include name="createLeaf" invocation-numbers="0 1 2 3"/>
           <include name="beforeMethod"/>
           <include name="stopReport"/>
         </methods>
-      </class> <!-- com.leafBot.testcases.TC002_LoginForFailure -->
+      </class> <!-- com.leafBot.testcases.CucumberRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

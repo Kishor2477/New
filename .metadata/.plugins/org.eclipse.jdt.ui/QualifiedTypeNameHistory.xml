@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
-    <fullyQualifiedTypeName name="week3.day1.opps.baseclass.BaseClass"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
     <fullyQualifiedTypeName name="org.hamcrest.Matchers"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="programrevision.StringDuplicates"/>
+    <fullyQualifiedTypeName name="staticpackage.SimpleStatic"/>
+    <fullyQualifiedTypeName name="staticpackage.Student"/>
 </qualifiedTypeNameHistroy>

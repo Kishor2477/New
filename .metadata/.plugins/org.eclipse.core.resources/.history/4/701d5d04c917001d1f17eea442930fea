@@ -1,9 +1,0 @@
-Feature: ChangeRequest
-
-Scenario: Get Change Request
-
-Given Setup the Endpoint
-And Provide Authorization
-When Send the request
-Then Validate the response is 200
-And Print the response
