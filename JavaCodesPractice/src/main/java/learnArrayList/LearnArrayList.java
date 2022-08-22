@@ -12,6 +12,8 @@ public class LearnArrayList {
 		studentList.add("old");
 		studentList.add("alea");
 		
+		
+		
 	System.out.println(studentList);	
 	
 	System.out.println("====================");

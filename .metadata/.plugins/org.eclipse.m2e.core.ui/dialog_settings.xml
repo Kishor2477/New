@@ -62,6 +62,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="FrameWorkDesign"/>
 			<item value="SeleniumPractice"/>
 			<item value="RestAssured2022"/>
 			<item value="NaveenAutomationLabs"/>
@@ -79,6 +80,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="FrameWorkDesign"/>
 			<item value="SeleniumPractice"/>
 			<item value="RestAssured2022"/>
 			<item value="NaveenPOM"/>
