@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7557" started-at="2022-08-29T09:19:37 IST" finished-at="2022-08-29T09:19:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7557" started-at="2022-08-29T09:19:37 IST" finished-at="2022-08-29T09:19:45 IST">
+      <class name="com.leaftaps.ui.testcases.Login">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.leaftaps.ui.testcases.Login@ecb35a]" name="setValues" is-config="true" duration-ms="6" started-at="2022-08-29T09:19:37 IST" finished-at="2022-08-29T09:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leaftaps.ui.testcases.Login@ecb35a]" name="beforeMethod" is-config="true" duration-ms="3744" started-at="2022-08-29T09:19:38 IST" finished-at="2022-08-29T09:19:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.testcases.Login@ecb35a]" name="loginPage" duration-ms="361" started-at="2022-08-29T09:19:42 IST" data-provider="fetchdata" finished-at="2022-08-29T09:19:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.leaftaps.ui.testcases.Login@ecb35a]" name="tearDown" is-config="true" duration-ms="682" started-at="2022-08-29T09:19:42 IST" finished-at="2022-08-29T09:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leaftaps.ui.testcases.Login@ecb35a]" name="beforeMethod" is-config="true" duration-ms="1623" started-at="2022-08-29T09:19:43 IST" finished-at="2022-08-29T09:19:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="simpleLogin()[pri:0, instance:com.leaftaps.ui.testcases.Login@ecb35a]" name="simpleLogin" duration-ms="8" started-at="2022-08-29T09:19:44 IST" finished-at="2022-08-29T09:19:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.leaftaps.ui.testcases.Login@ecb35a]" name="tearDown" is-config="true" duration-ms="632" started-at="2022-08-29T09:19:44 IST" finished-at="2022-08-29T09:19:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.leaftaps.ui.testcases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

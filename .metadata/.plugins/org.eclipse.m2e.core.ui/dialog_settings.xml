@@ -62,6 +62,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="kishorprojectdemo"/>
+			<item value="JavaCode"/>
 			<item value="FrameWorkDesign"/>
 			<item value="SeleniumPractice"/>
 			<item value="RestAssured2022"/>
@@ -75,11 +77,12 @@
 			<item value="Week4Cucumber"/>
 			<item value="Week3Day1"/>
 			<item value="RestAssured"/>
-			<item value="RestAssuredMar22"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="kishorprojectdemo"/>
+			<item value="JavaCode"/>
 			<item value="FrameWorkDesign"/>
 			<item value="SeleniumPractice"/>
 			<item value="RestAssured2022"/>
@@ -93,7 +96,6 @@
 			<item value="Week4Cucumber"/>
 			<item value="Week3Day1"/>
 			<item value="RestAssured"/>
-			<item value="RestAssuredMar22"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -109,6 +111,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\kishor\eclipse-workspace1\Java"/>
 			<item value="C:\Users\kishor\eclipse-workspace1\SeleniumPractice"/>
 			<item value="C:\Users\kishor\eclipse-workspace1\LeafBot"/>
 			<item value="D:\API Documents\FrameWork\Makaia_Framework"/>
