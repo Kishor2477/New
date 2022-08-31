@@ -19,6 +19,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\kishor\eclipse-workspace1\LeafBot\LeafBot\pom.xml"/>
 			<item value="C:\Users\kishor\eclipse-workspace1\LearnSelenium\src\main\java\testngassign\CreateLead.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -62,6 +63,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="TestingFrameworkLearningSelenium"/>
 			<item value="kishorprojectdemo"/>
 			<item value="JavaCode"/>
 			<item value="FrameWorkDesign"/>
@@ -76,11 +78,11 @@
 			<item value="SalesForce"/>
 			<item value="Week4Cucumber"/>
 			<item value="Week3Day1"/>
-			<item value="RestAssured"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="TestingFrameworkLearningSelenium"/>
 			<item value="kishorprojectdemo"/>
 			<item value="JavaCode"/>
 			<item value="FrameWorkDesign"/>
@@ -95,7 +97,6 @@
 			<item value="SalesForce"/>
 			<item value="Week4Cucumber"/>
 			<item value="Week3Day1"/>
-			<item value="RestAssured"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
