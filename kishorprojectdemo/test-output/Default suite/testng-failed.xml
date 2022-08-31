@@ -5,10 +5,15 @@
     <classes>
       <class name="com.leaftaps.ui.testcases.Login">
         <methods>
-          <include name="simpleLogin"/>
+          <include name="setUpClass"/>
           <include name="setValues"/>
           <include name="beforeMethod"/>
+          <include name="tearDownClass"/>
+          <include name="closeReport"/>
           <include name="tearDown"/>
+          <include name="loginPage" invocation-numbers="0"/>
+          <include name="testCaseDetails"/>
+          <include name="startReport"/>
         </methods>
       </class> <!-- com.leaftaps.ui.testcases.Login -->
     </classes>

@@ -32,7 +32,7 @@ public void loginPage(String uname,String password) throws InterruptedException,
 	 * driver.findElement(By.id("username")).sendKeys(uname);
 	 * driver.findElement(By.id("password")).sendKeys(password); Thread.sleep(2000);
 	 */
-	new LoginPage(driver).clickUsername(uname).typePassword(password).clickLogin();
+	new LoginPage(driver,node).clickUsername(uname).typePassword(password).clickLogin();
 	
 	
 }

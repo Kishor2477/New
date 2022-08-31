@@ -2,28 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11975" started-at="2022-08-29T16:14:30 IST" finished-at="2022-08-29T16:14:42 IST">
+  <suite name="Default suite" duration-ms="7802" started-at="2022-08-30T09:03:43 IST" finished-at="2022-08-30T09:03:51 IST">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="11975" started-at="2022-08-29T16:14:30 IST" finished-at="2022-08-29T16:14:42 IST">
+    <test name="Default test" duration-ms="7802" started-at="2022-08-30T09:03:43 IST" finished-at="2022-08-30T09:03:51 IST">
       <class name="com.leaftaps.ui.testcases.Login">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="startReport" is-config="true" duration-ms="207" started-at="2022-08-29T16:14:30 IST" finished-at="2022-08-29T16:14:30 IST">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="startReport" is-config="true" duration-ms="160" started-at="2022-08-30T09:03:43 IST" finished-at="2022-08-30T09:03:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setValues()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="setValues" is-config="true" duration-ms="1" started-at="2022-08-29T16:14:30 IST" finished-at="2022-08-29T16:14:30 IST">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="setValues" is-config="true" duration-ms="1" started-at="2022-08-30T09:03:43 IST" finished-at="2022-08-30T09:03:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValues -->
-        <test-method status="PASS" signature="testCaseDetails()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="testCaseDetails" is-config="true" duration-ms="5" started-at="2022-08-29T16:14:30 IST" finished-at="2022-08-29T16:14:30 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="setUpClass" is-config="true" duration-ms="106" started-at="2022-08-30T09:03:43 IST" finished-at="2022-08-30T09:03:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="testCaseDetails()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="testCaseDetails" is-config="true" duration-ms="3" started-at="2022-08-30T09:03:43 IST" finished-at="2022-08-30T09:03:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseDetails -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="beforeMethod" is-config="true" duration-ms="5997" started-at="2022-08-29T16:14:31 IST" finished-at="2022-08-29T16:14:37 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="beforeMethod" is-config="true" duration-ms="3077" started-at="2022-08-30T09:03:44 IST" finished-at="2022-08-30T09:03:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="loginPage" duration-ms="1400" started-at="2022-08-29T16:14:37 IST" data-provider="fetchdata" finished-at="2022-08-29T16:14:38 IST">
+        <test-method status="PASS" signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="loginPage" duration-ms="914" started-at="2022-08-30T09:03:47 IST" data-provider="fetchdata" finished-at="2022-08-30T09:03:48 IST">
           <params>
             <param index="0">
               <value>
@@ -39,23 +46,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="tearDown" is-config="true" duration-ms="713" started-at="2022-08-29T16:14:38 IST" finished-at="2022-08-29T16:14:39 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="tearDown" is-config="true" duration-ms="655" started-at="2022-08-30T09:03:48 IST" finished-at="2022-08-30T09:03:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="beforeMethod" is-config="true" duration-ms="2507" started-at="2022-08-29T16:14:39 IST" finished-at="2022-08-29T16:14:41 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="beforeMethod" is-config="true" duration-ms="2026" started-at="2022-08-30T09:03:48 IST" finished-at="2022-08-30T09:03:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="simpleLogin()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="simpleLogin" duration-ms="8" started-at="2022-08-29T16:14:41 IST" finished-at="2022-08-29T16:14:41 IST">
+        <test-method status="PASS" signature="simpleLogin()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="simpleLogin" duration-ms="20" started-at="2022-08-30T09:03:50 IST" finished-at="2022-08-30T09:03:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="tearDown" is-config="true" duration-ms="676" started-at="2022-08-29T16:14:41 IST" finished-at="2022-08-29T16:14:42 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="tearDown" is-config="true" duration-ms="621" started-at="2022-08-30T09:03:50 IST" finished-at="2022-08-30T09:03:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closeReport()[pri:0, instance:com.leaftaps.ui.testcases.Login@166ebe0]" name="closeReport" is-config="true" duration-ms="290" started-at="2022-08-29T16:14:42 IST" finished-at="2022-08-29T16:14:42 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2022-08-30T09:03:51 IST" finished-at="2022-08-30T09:03:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:com.leaftaps.ui.testcases.Login@1490758]" name="closeReport" is-config="true" duration-ms="162" started-at="2022-08-30T09:03:51 IST" finished-at="2022-08-30T09:03:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
