@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="\"/>
 		<list key="findhistory">
+			<item value="locateElement"/>
 			<item value="\\\"/>
 			<item value="Sys_id"/>
 			<item value="CHG0030018"/>
