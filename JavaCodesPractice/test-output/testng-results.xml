@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81" started-at="2022-05-11T16:33:37 IST" finished-at="2022-05-11T16:33:37 IST">
+  <suite name="Default suite" duration-ms="3558" started-at="2022-09-10T12:51:42 IST" finished-at="2022-09-10T12:51:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81" started-at="2022-05-11T16:33:37 IST" finished-at="2022-05-11T16:33:37 IST">
-      <class name="coding.ReverseString">
-        <test-method status="PASS" signature="reverseUsingStringBuilder()[pri:1, instance:coding.ReverseString@aa12dd]" name="reverseUsingStringBuilder" duration-ms="14" started-at="2022-05-11T16:33:37 IST" finished-at="2022-05-11T16:33:37 IST">
+    <test name="Default test" duration-ms="3558" started-at="2022-09-10T12:51:42 IST" finished-at="2022-09-10T12:51:45 IST">
+      <class name="learnfromfailures.Armstrongnumber">
+        <test-method status="PASS" signature="ams()[pri:0, instance:learnfromfailures.Armstrongnumber@aa12dd]" name="ams" duration-ms="3505" started-at="2022-09-10T12:51:42 IST" finished-at="2022-09-10T12:51:45 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reverseUsingStringBuilder -->
-        <test-method status="PASS" signature="reverseUsingCharacter()[pri:2, instance:coding.ReverseString@aa12dd]" name="reverseUsingCharacter" duration-ms="3" started-at="2022-05-11T16:33:37 IST" finished-at="2022-05-11T16:33:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reverseUsingCharacter -->
-        <test-method status="PASS" signature="reverseUsingCharAt()[pri:3, instance:coding.ReverseString@aa12dd]" name="reverseUsingCharAt" duration-ms="2" started-at="2022-05-11T16:33:37 IST" finished-at="2022-05-11T16:33:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reverseUsingCharAt -->
-      </class> <!-- coding.ReverseString -->
+        </test-method> <!-- ams -->
+      </class> <!-- learnfromfailures.Armstrongnumber -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
